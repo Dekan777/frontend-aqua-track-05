@@ -13,6 +13,15 @@ const UsserAuth = () => {
       <div className={css.lngBtns}>
         <button
           className={`${css.lngBtn} ${
+            i18n.language === 'no' ? `${css.active}` : ''
+          }`}
+          type="button"
+          onClick={() => changeLanguage('no')}
+        >
+          NO
+        </button>
+        <button
+          className={`${css.lngBtn} ${
             i18n.language === 'en' ? `${css.active}` : ''
           }`}
           type="button"
@@ -20,6 +29,7 @@ const UsserAuth = () => {
         >
           EN
         </button>
+
         <button
           className={`${css.lngBtn} ${
             i18n.language === 'ua' ? `${css.active}` : ''

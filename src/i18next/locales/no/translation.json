@@ -1,0 +1,202 @@
+{
+  "welcomeSection": {
+    "logo": "AQUATRACK",
+    "title": "Vannforbrukssporer",
+    "recordPparag": "Registrer daglig vanninntak og spore",
+    "tryTrackerBtn": "Prøv sporer",
+    "signIn": "Logg inn"
+  },
+
+  "advantagesSection": {
+    "ourParag": "Våre",
+    "happySpan": "glade",
+    "customersParag": "kunder",
+    "textHabit": "Vanedriv",
+    "textView": "Se statistikk",
+    "textPersonal": "Personlig hastighetsinnstilling"
+  },
+
+  "singInForm": {
+    "signIn": "Logg inn",
+    "email": "E-post",
+    "emailPlaceholder": "Skriv inn din e-post",
+    "password": "Passord",
+    "enterPassword": "Skriv inn passordet ditt",
+    "sigIn": "Logg inn",
+    "textDont": "Har ikke en konto?",
+    "sigUn": "Registrer deg",
+    "emailVelid": "Vennligst gyldig e-post",
+    "emailRequired": "Obligatorisk e-post",
+    "passwordMin": "For kort",
+    "passwordMax": "For lang",
+    "resendEmailBtn": "Send e-post på nytt",
+    "forgotPassword": "Glemt passord?",
+
+    "googleButton": {
+      "googleBtn": "Logg inn med Google"
+    }
+  },
+
+  "singUnForm": {
+    "signUp": "Registrer deg",
+    "email": "E-post",
+    "password": "Passord",
+    "repeatPassword": "Gjenta passord",
+    "sigmUp": "Registrer deg",
+    "textAlready": "Har allerede en konto?",
+    "signIn": "Logg inn",
+    "emailVelid": "Vennligst skriv inn gyldig e-post",
+    "emailRequired": "Obligatorisk e-post",
+    "passwordMin": "For kort",
+    "passwordMax": "For lang",
+    "passwordMatches": "Passord må inneholde minst en stor bokstav, en liten bokstav, ett tall og ett spesialtegn",
+    "passwordRequired": "Obligatorisk passord",
+    "repeatPasswordOneOf": "Passordene må være like",
+    "repeatPasswordRequired": "Obligatorisk passord",
+    "emailPlace": "Skriv inn din e-post",
+    "passwordPlace": "Skriv inn ditt passord",
+    "passwordRepeatPlace": "Gjenta passord"
+  },
+
+  "waterModal": {
+    "ml": "ml",
+    "WaterForm": {
+      "waterRequired": "Vannverdien er påkrevd",
+      "waterPositive": "Vannverdien må være et positivt tall",
+      "waterInteger": "Vannverdien må være et heltall"
+    },
+    "timeRecording": "Opptakstid:",
+    "waterValue": "Skriv inn verdien av det brukte vannet:",
+    "btnSubmit": "Lagre",
+    "addWaterBtn": "Legg til vann",
+    "addWaterTitle": "Legg til vann",
+    "addWaterSubTitle": "Velg en verdi",
+    "AmountWater": "Vannmengde:"
+  },
+
+  "WaterProgressBar": {
+    "today": "I dag",
+    "it": "Det er",
+    "norma": "av daglig norm"
+  },
+
+  "WaterMainInfo": {
+    "normaDaily": "Min daglige norm",
+    "addWater": "Legg til vann",
+    "liters": "L",
+    "subTitle": "Velg en verdi",
+    "title": "Legg til vann"
+  },
+  "WaterItem": {
+    "woterMl": "ml",
+    "correctData": "Korrekt inntastede data:",
+    "editTheEntered": "Rediger den inntastede mengden vann"
+  },
+  "UserPanel": {
+    "helloText": "Hei, ",
+    "logout": "logg ut"
+  },
+
+  "UserBarPopover": {
+    "settingsBtn": "Innstillinger",
+    "logOutBtn": "Logg ut"
+  },
+
+  "MonthInfo": {
+    "month": "Måned"
+  },
+
+  "DailyInfo": {
+    "startTrackingText": "Begynn å spore vanninntaket ditt ved å klikke på Legg til vann-knappen."
+  },
+
+  "ChooseDate": {
+    "january": "Januar",
+    "february": "Februar",
+    "march": "Mars",
+    "april": "April",
+    "may": "Mai",
+    "june": "Juni",
+    "july": "Juli",
+    "august": "August",
+    "september": "September",
+    "october": "Oktober",
+    "november": "November",
+    "december": "Desember",
+    "today": "I dag",
+    "en": "uk-UA"
+  },
+
+  "UserSettingsForm": {
+    "uploadPhotoBtn": "Last opp et bilde",
+    "yourGenderLabel": "Din kjønnsidentitet",
+    "femaleGenderLabel": "Kvinne",
+    "femaleGenderMale": "Mann",
+    "yourNameLabel": "Ditt navn",
+    "placeYourName": "Navn",
+    "labelEmail": "E-post",
+    "placeEmail": "E-post",
+    "dailyNormah3": "Min daglige norm",
+    "forWomanP": "For kvinne:",
+    "forManP": "For mann:",
+    "starText": "V er volumet av vannnormen i liter per dag, M er kroppsvekten din, T er tiden for aktiv idrett, eller en annen type aktivitet som er proporsjonal med belastningene (hvis disse mangler, må du sette 0)",
+    "activeText": "Aktiv tid i timer",
+    "infoUser": "Vekten din i kilo:",
+    "TheTimeSportsLabel": "Tiden for aktiv deltakelse i idrett:",
+    "requiredWater": "Den nødvendige mengden vann i liter per dag:",
+    "writeDownLabel": "Skriv ned hvor mye vann du vil drikke:",
+    "saveBtn": "Lagre"
+  },
+
+  "UserSettingsModal": {
+    "setting": "Innstillinger"
+  },
+
+  "ForgotPasswordForm": {
+    "recoverYourPassword": "Gjenopprette passordet ditt",
+    "email": "E-post",
+    "enterPlace": "Skriv inn din e-post",
+    "sendLinkBtn": "Send lenke",
+    "rememberPasswordText": "Huske passordet ditt?",
+    "signIn": "Logg inn",
+    "emailVelid": "Vennligst gyldig e-post",
+    "emailRequired": "Obligatorisk e-post"
+  },
+
+  "months": {
+    "11": "Desember",
+    "0": "Januar",
+    "1": "Februar",
+    "2": "Mars",
+    "3": "April",
+    "4": "Mai",
+    "5": "Juni",
+    "6": "Juli",
+    "7": "August",
+    "8": "September",
+    "9": "Oktober",
+    "10": "November"
+  },
+
+  "ResetForm": {
+    "minTooShort": "For kort",
+    "maxTooLong": "For lang",
+    "matchesPassword": "Passord må inneholde minst en stor bokstav, en liten bokstav, ett tall og ett spesialtegn",
+    "requiredPassword": "Obligatorisk passord",
+    "oneOfPassword": "Passordene må være like",
+    "requiredPasswordrepeat": "Obligatorisk passord",
+    "makeTexth2": "Lag et nytt passord",
+    "newPasswordLabel": " Nytt passord",
+    "enterPlace": "Skriv inn ditt nye passord",
+    "repeatPassword": "Gjenta passord",
+    "confirmBtn": "Bekreft"
+  },
+  "SuccessVerify": {
+    "goTo": "Gå til",
+    "signIn": "Logg inn"
+  },
+
+  "WaterList": {
+    "statrTrackingText": "Begynn å spore vanninntaket ditt ved å klikke på Legg til vann-knappen."
+  }
+}

@@ -13,5 +13,5 @@
 .lngBtns {
   display: flex;
   flex-direction: row-reverse;
-  gap: 2px;
+  gap: 4px;
 }
