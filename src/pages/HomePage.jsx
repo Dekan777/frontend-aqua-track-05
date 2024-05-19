@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Home from '../components/homePage/Home';
 import { TourProvider, useTour } from '@reactour/tour';
@@ -10,8 +9,6 @@ const TourButton = () => {
 };
 
 export default function HomePage() {
-  const [setModalIsOpen] = useState(false);
-
   return (
     <>
       <Helmet>
@@ -22,9 +19,7 @@ export default function HomePage() {
           <TourButton />
 
           <p>
-            <button data-tour="1" onClick={() => setModalIsOpen(true)}>
-              111
-            </button>
+            <button data-tour="1">111</button>
           </p>
           <button data-tour="2">222</button>
           <p>
