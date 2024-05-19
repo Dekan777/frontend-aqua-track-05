@@ -1,7 +1,8 @@
 import { Helmet } from 'react-helmet-async';
 import Home from '../components/homePage/Home';
-import { TourProvider, useTour } from '@reactour/tour';
-import steps from '../steps';
+import { TourProvider } from '@reactour/tour';
+import steps from './steps';
+import { useTour } from '@reactour/tour';
 
 const TourButton = () => {
   const { setIsOpen } = useTour();
@@ -15,17 +16,7 @@ export default function HomePage() {
         <title>Home Page</title>
       </Helmet>
       <TourProvider steps={steps}>
-        <div>
-          <TourButton />
-
-          <p>
-            <button data-tour="1">111</button>
-          </p>
-          <button data-tour="2">222</button>
-          <p>
-            <button data-tour="3">333</button>
-          </p>
-        </div>
+        <TourButton />
         <Home />
       </TourProvider>
     </>

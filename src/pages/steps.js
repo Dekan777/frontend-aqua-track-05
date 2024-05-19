@@ -6,7 +6,7 @@ const steps = [
         mutationObservables: [".ReactModal__Overlay"]
     },
     { selector: '[data-tour="2"]', content: "text 2" },
-    { selector: '[data-tour="3"]', content: "text 3" }
+
 ];
 
 export default steps;
