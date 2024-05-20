@@ -1,3 +1,4 @@
+import TourButton from '../ButtonTour/ButtonTour';
 import css from './UserAuth.module.css';
 import { useTranslation } from 'react-i18next';
 
@@ -10,25 +11,29 @@ const UsserAuth = () => {
 
   return (
     <>
-      <div className={css.lngBtns}>
-        <button
-          className={`${css.lngBtn} ${
-            i18n.language === 'en' ? `${css.active}` : ''
-          }`}
-          type="button"
-          onClick={() => changeLanguage('en')}
-        >
-          EN
-        </button>
-        <button
-          className={`${css.lngBtn} ${
-            i18n.language === 'ua' ? `${css.active}` : ''
-          }`}
-          type="button"
-          onClick={() => changeLanguage('ua')}
-        >
-          UA
-        </button>
+      <div className={css.TourButton}>
+        <TourButton />
+
+        <div className={css.lngBtns}>
+          <button
+            className={`${css.lngBtn} ${
+              i18n.language === 'en' ? `${css.active}` : ''
+            }`}
+            type="button"
+            onClick={() => changeLanguage('en')}
+          >
+            EN
+          </button>
+          <button
+            className={`${css.lngBtn} ${
+              i18n.language === 'ua' ? `${css.active}` : ''
+            }`}
+            type="button"
+            onClick={() => changeLanguage('ua')}
+          >
+            UA
+          </button>
+        </div>
       </div>
     </>
   );

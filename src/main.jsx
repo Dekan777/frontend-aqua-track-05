@@ -9,6 +9,17 @@ import { persistor, store } from './redux/store';
 import './shared/styles/index.css';
 import 'modern-normalize';
 import './i18next/config.js';
+import { TourProvider } from '@reactour/tour';
+import TourSteps from './TourSteps.js';
+
+const TourWrapper = () => {
+  const steps = TourSteps();
+  return (
+    <TourProvider steps={steps}>
+      <App />
+    </TourProvider>
+  );
+};
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -16,7 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <PersistGate loading={null} persistor={persistor}>
         <BrowserRouter>
           <HelmetProvider>
-            <App />
+            <TourWrapper />
           </HelmetProvider>
         </BrowserRouter>
       </PersistGate>

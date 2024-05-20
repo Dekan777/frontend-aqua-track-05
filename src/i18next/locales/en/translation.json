@@ -4,7 +4,9 @@
     "title": "Water consumption tracker",
     "recordPparag": "Record daily water intake and track",
     "tryTrackerBtn": "Try tracker",
-    "signIn": "Sign In"
+    "signIn": "Sign In",
+    "recordPparagTour": "Click to register",
+    "tryTrackerBtnTour": "Click to log in with your username"
   },
 
   "advantagesSection": {
@@ -199,5 +201,9 @@
 
   "WaterList": {
     "statrTrackingText": "Start tracking your water intake by clicking the Add water button."
+  },
+
+  "ButtonTour": {
+    "openTour": "Open Tour"
   }
 }
