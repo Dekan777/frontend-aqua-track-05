@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import Logo from '../../../shared/components/Logo/Logo';
 import css from './WelcomeSection.module.css';
 import { useTranslation } from 'react-i18next';
+import TourButton from './ButtonTour';
 
 export default function WelcomeSection() {
   const { t } = useTranslation();
@@ -10,6 +11,7 @@ export default function WelcomeSection() {
       <div className={css.pad}>
         <div className={css.logo}>
           <Logo />
+          <TourButton />
         </div>
         <div className={css.div}>
           <p className={css.parag}>{t('welcomeSection.recordPparag')}</p>

@@ -205,5 +205,9 @@
 
   "ButtonTour": {
     "openTour": "Open Tour"
+  },
+
+  "signUpForm": {
+    "formTour": "Open Tour"
   }
 }

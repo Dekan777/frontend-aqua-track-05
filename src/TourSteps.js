@@ -10,13 +10,13 @@ const TourSteps = () => {
         },
         {
             selector: '[data-tour="welcomeSection2"]',
-            content: t('welcomeSection.tryTrackerBtnTour')
-        },
+            content: t('welcomeSection.tryTrackerBtnTour'),
+        }
+
+
     ];
 
     return steps;
 };
 
 export default TourSteps;
-
-

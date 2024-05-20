@@ -67,7 +67,7 @@ export default function SignUpForm() {
   };
 
   return (
-    <div className={css.section}>
+    <div data-tour="welcomeSection2" className={css.section}>
       <div className={css.pad}>
         <div className={css.logo}>
           <Logo />
